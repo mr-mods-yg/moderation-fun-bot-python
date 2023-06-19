@@ -574,7 +574,7 @@ async def nuke_error(ctx, error):
 async def support(ctx):
     await ctx.send("https://discord.gg/GV5Ejuy")
 
-#  AUTOMATIC DISCORD LINK PREVENTION & EMOJI GETTER
+#  AUTOMATIC DISCORD LINK PREVENTION
 @bot.event
 async def on_message(message):
     randomColor = randint(0, 16777216)
@@ -590,25 +590,6 @@ async def on_message(message):
         else:
             print("Admin Sent A Link")
             
-	# Not Working Properly Now
-    # elif "--" in message.content.lower():
-    #     await message.delete()
-    #     msg = message.content.replace("--", "")
-    #     emote = discord.utils.get(bot.emojis, name=f'{msg}')
-    #     autor = message.author.name
-    #     emoteembed = discord.Embed(
-    #         title=f'**{autor}**', description=f'{emote}', colour=randomColor)
-    #     # embed.set_footer(text="Made By ❰Mℜ. MOD̷丂❱ #2577")
-    #     await message.channel.send(embed=emoteembed)
-    # await bot.process_commands(message)
-
-# Not Working Now
-# @bot.command()
-# async def ascii(ctx, *, text):
-#     r = requests.get(f"https://artii.herokuapp.com/make?text={text}")
-#     sor = BeautifulSoup(r.text, "html.parser")
-#     await ctx.send(f"```{sor}```")
-
 
 @bot.command()
 async def gif(ctx, *, text):
@@ -632,20 +613,6 @@ async def gif_error(ctx, error):
                             value="c!gif party", inline=True)
         gif_embed.set_footer(text="Hope You Have Understood Now")
         await ctx.send(embed=gif_embed)
-
-# Not Working Now
-# @ascii.error
-# async def ascii_error(ctx, error):
-#     if isinstance(error, commands.MissingRequiredArgument):
-#         randomColor = randint(0, 16777216)
-#         ascii_embed = discord.Embed(
-#             title="Error : Missing Few Argument", color=randomColor)
-#         ascii_embed.add_field(
-#             name="Usage :", value="c!ascii <text>", inline=True)
-#         ascii_embed.add_field(
-#             name="Example : ", value="c!ascii james", inline=True)
-#         ascii_embed.set_footer(text="Hope You Have Understood Now")
-#         await ctx.send(embed=ascii_embed)
 
 # Test Bot
 # -> Run Here
