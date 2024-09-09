@@ -10,12 +10,14 @@ It also includes some fun commands to have fun with your friends and other serve
 
 
 ## Demo
-
+### Image 1
+![image](https://github.com/user-attachments/assets/1fb89c9a-3bff-4f09-9e2e-713e87d1ba26)
+<br>
+### Image 2
 ![image](https://github.com/mr-mods-yg/moderation-fun-bot-python/assets/62419230/0ae58e7e-43a9-47b2-a45a-a31ef919797c)
 <br>
-
+### Image 3
 ![image](https://github.com/mr-mods-yg/moderation-fun-bot-python/assets/62419230/c9c9443b-066b-4793-a1d6-3ae2c3f36186)
-
 
 ## Deployment
 **BEFORE IT:**
