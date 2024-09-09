@@ -1,6 +1,6 @@
 # Discord Moderation & Fun Bot
 
-Discord moderation bot is a software program that helps server owners and administrators manage their online communities on Discord. It can perform various tasks such as deleting spam messages, banning rule-breakers, assigning roles, logging actions, and more. It can also interact with users through commands and responses. Discord moderation bot is a useful tool for creating a safe and enjoyable environment for Discord users.
+Discord moderation bot is a software program that helps server owners and administrators manage their online communities on Discord. It can perform various tasks such as deleting spam messages, banning rule-breakers, assigning roles, and more. It can also interact with users through commands and responses. Discord moderation bot is a useful tool for creating a safe and enjoyable environment for Discord users.
 It also includes some fun commands to have fun with your friends and other server members.
 
 ## Acknowledgements
